@@ -45,10 +45,16 @@ h3{
 }
 
 .skill-row{
-    width: 50%;
-    margin:100px auto;
     text-align: left;
+    padding: 2rem;
     line-height: 2;
+    display: inline-block;
+}
+
+.edu-row{
+padding: 2rem;
+display:inline-block;
+text-align: left;
 }
 
 .top{
@@ -77,21 +83,13 @@ a {
 
 .skills-pic-one {
     width: 25%;
-    float: left;
     margin-right: 30px;
     
 }
 
-.skills-pic-two {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-   
-}
-
 hr{
     width: 2rem;
-    border: 5px dotted #EAF6F6;
+    border: 5px dotted #4bc9c9;
     border-top: none;
 }
 
@@ -142,7 +140,12 @@ hr{
   }
 
   .footer-link{
-    color: #11999E;
+    color: #03585b;
     text-decoration: none;
     margin: auto 15px;
+  }
+
+  .projects {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
